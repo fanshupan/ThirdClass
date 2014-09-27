@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F03D6C519D65C820068A78B /* shupanAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F03D6C419D65C820068A78B /* shupanAppDelegate.m */; };
 		7FC1115219D6554A0072DC0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC1115119D6554A0072DC0A /* Foundation.framework */; };
 		7FC1115419D6554A0072DC0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC1115319D6554A0072DC0A /* CoreGraphics.framework */; };
 		7FC1115619D6554A0072DC0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC1115519D6554A0072DC0A /* UIKit.framework */; };
@@ -32,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F03D6C319D65C820068A78B /* shupanAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shupanAppDelegate.h; sourceTree = "<group>"; };
+		7F03D6C419D65C820068A78B /* shupanAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shupanAppDelegate.m; sourceTree = "<group>"; };
 		7FC1114E19D6554A0072DC0A /* ThirdClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThirdClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC1115119D6554A0072DC0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7FC1115319D6554A0072DC0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -109,6 +112,8 @@
 			children = (
 				7FC1116019D6554A0072DC0A /* AppDelegate.h */,
 				7FC1116119D6554A0072DC0A /* AppDelegate.m */,
+				7F03D6C319D65C820068A78B /* shupanAppDelegate.h */,
+				7F03D6C419D65C820068A78B /* shupanAppDelegate.m */,
 				7FC1116319D6554A0072DC0A /* Images.xcassets */,
 				7FC1115819D6554A0072DC0A /* Supporting Files */,
 			);
@@ -240,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FC1116219D6554A0072DC0A /* AppDelegate.m in Sources */,
+				7F03D6C519D65C820068A78B /* shupanAppDelegate.m in Sources */,
 				7FC1115E19D6554A0072DC0A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +443,7 @@
 				7FC1117C19D6554A0072DC0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7FC1117D19D6554A0072DC0A /* Build configuration list for PBXNativeTarget "ThirdClassTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +452,7 @@
 				7FC1117F19D6554A0072DC0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
