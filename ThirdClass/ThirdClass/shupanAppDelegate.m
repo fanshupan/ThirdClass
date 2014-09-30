@@ -27,25 +27,33 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     NSLog(@"did finish laching");
-    self.window = [[UIWindow alloc] initWithFrame:CGRectMake(0, 100, 300, 300)];
+    self.window=[[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
     [self.window makeKeyAndVisible];
-    self.window.backgroundColor = [UIColor whiteColor];
-    UIView *myview = [[UIView alloc] initWithFrame:CGRectMake(10, 50, 100, 100)];
-    myview.backgroundColor = [UIColor greenColor];
-    UIView *myview2 = [[UIView alloc] initWithFrame:CGRectMake(10, 10, 50, 50)];
-    [myview2 setBackgroundColor:[UIColor redColor]];
-    
-    [self.window addSubview:myview2];
-   // myview.bounds
-    
-    NSLog(@"myview frmae x %f",myview.frame.origin.x);
-    NSLog(@"myview bounds x %f",myview.center.x);
+    self.window.backgroundColor=[UIColor whiteColor];
+    for (int i=0; i<10; i++) {
+        UIView *myView=[[UIView alloc] initWithFrame:CGRectMake(0, 60*i, 50, 50)];
+        myView.backgroundColor=[UIColor redColor];
+        [self.window addSubview:myView];
+    }
     
     
-   myview.center = CGPointMake(200, 100);
     
     
-    [self.window addSubview:myview];
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     return YES;
 }
